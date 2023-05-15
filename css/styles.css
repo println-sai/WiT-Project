@@ -1,0 +1,298 @@
+/* TTT Boxed */
+
+.boxed {
+  background: url("/main/booka.jpg") no-repeat fixed right;
+  background-size: cover;
+  padding: 0%;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  float: center;
+}
+
+/* Welcome to money bird and p text under */
+
+h1 {
+  font-size: 350%;
+  text-align: center;
+  font-weight: 500;
+  background-color: #9bc782;
+  color: #25170d;
+  font-family: 'Herr Von Muellerhoff', cursive;
+
+}
+
+p {
+  background-color: #9bc782;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-top: -3.37%;
+  width: 100%;
+  text-align: center;
+  color: #25170d;
+  position: relative;
+}
+
+/* Discover our story section */
+
+h2 {
+  font-size: 400%;
+  font-weight: 500;
+  color: #695C7A;
+  padding: 13%;
+  text-align: center;
+  margin: -15%;
+  height: 100%;
+  overflow: auto;
+  
+}
+h5 {
+  font-size: 400%;
+  font-weight: 500;
+  color: #A68BC7;
+  padding: 1%;
+  text-align: center;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  margin: -17%;
+  height: 100%;
+  overflow: auto;
+
+}
+
+h3 {
+  font-size: 400%;
+  font-weight: 500;
+  color: #695C7A;
+  padding: 13%;
+  text-align: center;
+  margin: 4%;
+  height: 100%;
+  overflow: auto;
+}
+
+h6{
+  font-size: 400%;
+  font-weight: 500;
+  color: #A68BC7;
+  padding: 1%;
+  text-align: center;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  margin: -21.2%;
+  height: 100%;
+  overflow: auto;
+}
+
+h4 {
+    color: #242424;
+    font: 400 24px Montserrat;
+    position: relative;
+  }
+.imgwork{
+float: none;
+margin: 400px 0 0 380px;
+}
+
+button2 {
+   padding: 10px 30px 10px 30px;
+   border: 0px;
+   background-color: #ffffff;
+   color: #25170d;
+   font-size: 15px;
+   border-radius: 0px;
+   position: relative;
+   top: -400px;
+   left: 866px
+
+ }
+
+button2:hover {
+  color: #9bc782;
+}
+
+input[type=button] {
+  background-color: #A68BC7;
+  border: none;
+  color: white;
+  font-size: 15px; 
+  padding: 10px;
+  border-radius: 0px;
+}
+
+#new:hover
+{
+  color: #695C7A;
+}
+
+
+ /* CSS STYLING FOR PAGE2.HTML */
+
+ ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+ .main-menu li {
+   float: left;
+   margin-right: 100px;
+   position: right;
+ }
+
+ li a {
+  display: block;
+  color: #000;
+  text-align: right;
+  padding: 60px 25px;
+  text-decoration: none;
+  font-family: 'Segoe UI';
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  position: relative;
+
+}
+
+ li a:hover {
+   color: #9bc782;
+ }
+
+ .logo {
+  width: 50%;
+  margin-top: -50px;
+  position: relative;
+
+}
+
+/* first row - tbc */
+.first-row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 10fr 1fr;
+  column-gap: 60px
+
+
+}
+
+p6 {
+  position: relative;
+  top: -10px;
+  float: left;
+  align-items: center;
+  display: grid;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.9px;
+
+
+}
+
+
+/* second row - online shopping */
+
+.second-row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 10fr 1fr;
+  column-gap: 60px
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+
+.image-container {
+  margin-left: 0;
+  transform: translate(60%,0%);
+}
+
+p7 {
+  position: relative;
+  top: -10px;
+  float: left;
+  align-items: center;
+  display: grid;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.9px;
+}
+
+/* third row - online shopping */
+
+.third-row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 10fr 1fr;
+  column-gap: 60px
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+
+.image-container {
+  margin-left: 0;
+  transform: translate(60%,0%);
+}
+
+p8 {
+  position: relative;
+  top: -10px;
+  float: left;
+  align-items: center;
+  display: grid;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.9px;
+
+
+}
+
+/* fourth row - online shopping */
+
+.fourth-row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 10fr 1fr;
+  column-gap: 60px
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+
+.image-container {
+  margin-left: 0;
+  transform: translate(60%,0%);
+}
+
+p9 {
+  position: relative;
+  top: -10px;
+  float: left;
+  align-items: center;
+  display: grid;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.9px;
+
+
+}
