@@ -138,17 +138,17 @@ input[type=button] {
  .main-menu li {
    float: left;
    margin-right: 100px;
-   position: right;
+   position: left;
  }
 
  li a {
   display: block;
   color: #000;
-  text-align: right;
-  padding: 60px 25px;
+  text-align: left;
+  padding: 30px 30px 10px 75px;
   text-decoration: none;
   font-family: 'Segoe UI';
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 10px;
